@@ -1,5 +1,5 @@
 # checks users enter yes (y) or no (n)
-def yes_no(question):
+def yes_no():
     while True:
         response = input("do you want to read instructions ").lower()
 
@@ -10,7 +10,6 @@ def yes_no(question):
         elif response == "no" or response == "n":
             return "no"
         print("please enter yes / no")
-
 
 
 def instructions():
@@ -41,6 +40,8 @@ Good luck.
     ''')
 
 # Main routine
+
+
 print()
 print("🎲🎲 roll it 13 🎲🎲")
 print()

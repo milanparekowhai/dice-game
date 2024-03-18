@@ -7,8 +7,9 @@ def roll_die():
     result = random.randint(1, 6)
     return result
 
-# rolls two dice and returns total and wether we
-#had a double roll
+# rolls two dice and returns total and wether we had a double roll
+
+
 def two_rolls():
 
     double_score = "no"
@@ -30,12 +31,14 @@ def two_rolls():
     return user_points, double_score
 # Main Routine starts here
 
+
 how_many = int(input("how many dice "))
 
-for item in range (0, 5):
+for item in range(0, 5):
 
     if how_many == 2:
         start_points = two_rolls()
         points = start_points[0]
 
     pass
+
